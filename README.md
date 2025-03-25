@@ -43,7 +43,7 @@ This project demonstrates efficient batch image processing using **CUDA** and **
 ###  Build Docker Image:
 
 ```bash
-docker build -t cuda-npp-project .
+docker build -t cuda-project .
 ```
 
 ---
@@ -51,7 +51,7 @@ docker build -t cuda-npp-project .
 ###  Run Processing (Windows PowerShell):
 
 ```powershell
-docker run --rm -it --gpus all -v ${PWD}\data:/workspace/data -v ${PWD}\output:/workspace/output cuda-npp-project
+docker run --rm -it --gpus all -v ${PWD}\data:/workspace/data -v ${PWD}\output:/workspace/output cuda-project
 ./batch_processor
 ```
 
