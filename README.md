@@ -51,8 +51,8 @@ docker build -t cuda-npp-project .
 ###  Run Processing (Windows PowerShell):
 
 ```powershell
-.
-un.ps1
+docker run --rm -it --gpus all -v ${PWD}\data:/workspace/data -v ${PWD}\output:/workspace/output cuda-npp-project
+./batch_processor
 ```
 
 This command automatically mounts local `data/` and `output/` directories into the container, making input/output handling seamless and bi-directional.
