@@ -76,7 +76,6 @@ This command automatically mounts local `data/` and `output/` directories into t
 To test the project, you can use images from:
 
 - [USC SIPI Image Database](https://sipi.usc.edu/database/database.php)
-- [UCI Machine Learning Repository](https://archive-beta.ics.uci.edu)
 
 Place downloaded images in the `/data/` directory.
 
